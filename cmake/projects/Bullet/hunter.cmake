@@ -6,9 +6,10 @@ endif()
 
 # Load used modules
 include(hunter_add_version)
+include(hunter_cacheable)
+include(hunter_cmake_args)
 include(hunter_download)
 include(hunter_pick_scheme)
-include(hunter_cmake_args)
 
 # List of versions here...
 hunter_add_version(
@@ -36,5 +37,5 @@ hunter_cmake_args(
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake) # use scheme for cmake projects
 
-hunter_cachable(Bullet)
+hunter_cacheable(Bullet)
 hunter_download(PACKAGE_NAME Bullet)

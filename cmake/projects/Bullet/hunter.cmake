@@ -36,4 +36,5 @@ hunter_cmake_args(
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake) # use scheme for cmake projects
 
+hunter_cachable(Bullet)
 hunter_download(PACKAGE_NAME Bullet)

@@ -32,7 +32,6 @@ hunter_cmake_args(
         BUILD_UNIT_TESTS=OFF
         INSTALL_EXTRA_LIBS=OFF
         BUILD_EXTRAS=OFF
-        CMAKE_BUILD_TYPE=RelWithDebInfo
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake) # use scheme for cmake projects

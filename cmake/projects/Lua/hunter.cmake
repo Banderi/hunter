@@ -1,29 +1,30 @@
-if(DEFINED HUNTER_CMAKE_PROJECTS_LUA_)
+# Added by Denis Kerzhemanov, 2015
+
+if(DEFINED HUNTER_CMAKE_PROJECTS_LUA_HUNTER_CMAKE_)
   return()
 else()
-  set(HUNTER_CMAKE_PROJECTS_LUA_ 1)
+  set(HUNTER_CMAKE_PROJECTS_LUA_HUNTER_CMAKE_ 1)
 endif()
 
-# Load used modules
 include(hunter_add_version)
 include(hunter_cacheable)
+include(hunter_configuration_types)
 include(hunter_download)
 include(hunter_pick_scheme)
 
-# List of versions here...
 hunter_add_version(
     PACKAGE_NAME
     Lua
     VERSION
-    "5.2.4"
+    "5.3.2"
     URL
-    "https://github.com/LuaDist/lua/archive/5.2.4.zip"
+    "https://github.com/hunter-packages/lua/archive/1054f9fa7a86dd15ecdc085430c038883bbdf0ae.zip"
     SHA1
-    033e7a97670e910e728573a695ebc7fc16ba532b
+    5e2f6765a92abbf1a68289cb797cce2ea9e19f90
 )
 
-hunter_pick_scheme(DEFAULT url_sha1_cmake) # use scheme for cmake projects
-
+hunter_configuration_types(Lua CONFIGURATION_TYPES Release)
 hunter_cacheable(Lua)
+hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_download(PACKAGE_NAME Lua)
 

@@ -18,9 +18,9 @@ hunter_add_version(
     VERSION
     "5.3.2"
     URL
-    "https://github.com/hunter-packages/lua/archive/1054f9fa7a86dd15ecdc085430c038883bbdf0ae.zip"
+    "https://github.com/hunter-packages/lua/archive/eabd8c173dab151e2dd5763e2d67c6dc5c9dc5f7.zip"
     SHA1
-    5e2f6765a92abbf1a68289cb797cce2ea9e19f90
+    ace46557838fd56221e362a0ce49d25726c7f94b
 )
 
 hunter_configuration_types(Lua CONFIGURATION_TYPES Release)

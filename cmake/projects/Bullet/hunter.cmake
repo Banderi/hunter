@@ -30,6 +30,7 @@ hunter_cmake_args(
         BUILD_CPU_DEMOS=OFF
         BUILD_OPENGL3_DEMOS=OFF
         BUILD_UNIT_TESTS=OFF
+        INSTALL_LIBS=ON # also installs necessary headers
         INSTALL_EXTRA_LIBS=OFF
         BUILD_EXTRAS=OFF
 )

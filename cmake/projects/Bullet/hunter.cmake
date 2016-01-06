@@ -34,6 +34,7 @@ hunter_cmake_args(
         INSTALL_EXTRA_LIBS=OFF
         BUILD_EXTRAS=OFF
         INTERNAL_ADD_POSTFIX_EXECUTABLE_NAMES=ON
+        USE_MSVC_RUNTIME_LIBRARY_DLL=ON
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake) # use scheme for cmake projects

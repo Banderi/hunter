@@ -33,6 +33,7 @@ hunter_cmake_args(
         INSTALL_LIBS=ON # also installs necessary headers
         INSTALL_EXTRA_LIBS=OFF
         BUILD_EXTRAS=OFF
+        INTERNAL_ADD_POSTFIX_EXECUTABLE_NAMES=ON
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake) # use scheme for cmake projects

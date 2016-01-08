@@ -18,8 +18,8 @@ hunter_add_version(
     VERSION
     "9a-cmake"
     URL
-    "https://github.com/stohrendorf/libjpeg-cmake/archive/9349a32d4ed3e41707f301015b0df8a66aa762bd.zip"
-    SHA1 d79e3b1753d0c3f752929c164dc0ac7284a2f78d
+    "https://github.com/stohrendorf/libjpeg-cmake/archive/0f32490965f52bc14179b1149fb87d97bed24906.zip"
+    SHA1 4009171737b4bb52bb6ef8d86a1913f3c92a5ff1
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake) # use scheme for cmake projects

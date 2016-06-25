@@ -74,6 +74,7 @@ hunter_config(QtCMakeExtra VERSION 1.0.4)
 hunter_config(QtQmlManager VERSION 1.0.0)
 hunter_config(RapidJSON VERSION 0.11-hunter)
 hunter_config(SDL2 VERSION 2.0.4)
+hunter_config(SDL2_image VERSION 2.0.1)
 hunter_config(SndFile VERSION 1.0.26-cmake)
 hunter_config(SQLite3 VERSION autoconf-3080803) #R-Tree enabled
 hunter_config(Sober VERSION 0.1.2)
